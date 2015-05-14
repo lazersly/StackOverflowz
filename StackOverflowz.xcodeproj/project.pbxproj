@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AD1362B61B03054C001AD1BA /* MyQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1362B51B03054C001AD1BA /* MyQuestionsViewController.m */; };
 		AD1362BA1B030C2D001AD1BA /* burger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1362B91B030C2D001AD1BA /* burger@2x.png */; };
+		AD1362BD1B041BC8001AD1BA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1362BC1B041BC8001AD1BA /* LoginViewController.m */; };
+		AD1362C01B041C75001AD1BA /* OAuthWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1362BF1B041C75001AD1BA /* OAuthWebViewController.m */; };
 		AD7B55C71B01464B00C64575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7B55C61B01464B00C64575 /* main.m */; };
 		AD7B55CA1B01464B00C64575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7B55C91B01464B00C64575 /* AppDelegate.m */; };
 		AD7B55D01B01464B00C64575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7B55CE1B01464B00C64575 /* Main.storyboard */; };
@@ -34,6 +36,10 @@
 		AD1362B41B03054C001AD1BA /* MyQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQuestionsViewController.h; sourceTree = "<group>"; };
 		AD1362B51B03054C001AD1BA /* MyQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQuestionsViewController.m; sourceTree = "<group>"; };
 		AD1362B91B030C2D001AD1BA /* burger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "burger@2x.png"; sourceTree = "<group>"; };
+		AD1362BB1B041BC8001AD1BA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AD1362BC1B041BC8001AD1BA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		AD1362BE1B041C75001AD1BA /* OAuthWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthWebViewController.h; sourceTree = "<group>"; };
+		AD1362BF1B041C75001AD1BA /* OAuthWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthWebViewController.m; sourceTree = "<group>"; };
 		AD7B55C11B01464B00C64575 /* StackOverflowz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7B55C51B01464B00C64575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7B55C61B01464B00C64575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -141,6 +147,10 @@
 				AD7B55F21B01480E00C64575 /* SearchQuestionsViewController.m */,
 				AD1362B41B03054C001AD1BA /* MyQuestionsViewController.h */,
 				AD1362B51B03054C001AD1BA /* MyQuestionsViewController.m */,
+				AD1362BB1B041BC8001AD1BA /* LoginViewController.h */,
+				AD1362BC1B041BC8001AD1BA /* LoginViewController.m */,
+				AD1362BE1B041C75001AD1BA /* OAuthWebViewController.h */,
+				AD1362BF1B041C75001AD1BA /* OAuthWebViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -247,9 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7B55F31B01480E00C64575 /* SearchQuestionsViewController.m in Sources */,
+				AD1362C01B041C75001AD1BA /* OAuthWebViewController.m in Sources */,
 				AD7B55CA1B01464B00C64575 /* AppDelegate.m in Sources */,
 				AD1362B61B03054C001AD1BA /* MyQuestionsViewController.m in Sources */,
 				AD7B55F01B0146D500C64575 /* MainMenuTableViewController.m in Sources */,
+				AD1362BD1B041BC8001AD1BA /* LoginViewController.m in Sources */,
 				AD7B55EC1B01467A00C64575 /* BurgerContainerViewController.m in Sources */,
 				AD7B55C71B01464B00C64575 /* main.m in Sources */,
 			);

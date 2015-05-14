@@ -69,6 +69,8 @@ NSTimeInterval closeSlidePanelAnimationDuration = 0.2;
   
   CGPoint translatedPoint = [panGesture translationInView:self.view];
   CGPoint velocity = [panGesture translationInView:self.view];
+//  NSLog(@"Velocity: %f", velocity.x);
+
   
   if (panGesture.state == UIGestureRecognizerStateChanged) {
     
